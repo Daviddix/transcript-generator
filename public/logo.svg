@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="crestGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="100" cy="100" r="94" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-dasharray="3,2" />
+  <circle cx="100" cy="100" r="88" fill="url(#crestGrad)" stroke="url(#goldGrad)" stroke-width="3" />
+
+  <!-- Inner Laurels -->
+  <g fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round">
+    <!-- Left Laurel -->
+    <path d="M 40,110 C 35,80 50,45 80,35" />
+    <path d="M 45,100 C 40,90 48,82 52,85" />
+    <path d="M 42,80 C 40,70 50,65 56,70" />
+    <path d="M 48,60 C 50,50 62,50 65,58" />
+    <path d="M 62,45 C 68,38 80,42 80,50" />
+
+    <!-- Right Laurel -->
+    <path d="M 160,110 C 165,80 150,45 120,35" />
+    <path d="M 155,100 C 160,90 152,82 148,85" />
+    <path d="M 158,80 C 160,70 150,65 144,70" />
+    <path d="M 152,60 C 150,50 138,50 135,58" />
+    <path d="M 138,45 C 132,38 120,42 120,50" />
+  </g>
+
+  <!-- Shield in Center -->
+  <path d="M 70,55 L 130,55 C 130,55 135,100 100,125 C 65,100 70,55 70,55 Z" fill="#ffffff" stroke="url(#goldGrad)" stroke-width="3" />
+  
+  <!-- Red Cross / Health Symbol -->
+  <path d="M 94,65 L 106,65 L 106,75 L 116,75 L 116,87 L 106,87 L 106,97 L 94,97 L 94,87 L 84,87 L 84,75 L 94,75 Z" fill="#dc2626" />
+
+  <!-- Open Book Symbol below cross -->
+  <path d="M 80,105 C 90,100 100,103 100,108 C 100,103 110,100 120,105 L 120,116 C 110,111 100,114 100,118 C 100,114 90,111 80,116 Z" fill="url(#goldGrad)" stroke="#78350f" stroke-width="0.8" />
+
+  <!-- Banner Ribbon at Bottom -->
+  <path d="M 35,145 L 60,135 L 140,135 L 165,145 L 155,160 L 140,152 L 100,158 L 60,152 L 45,160 Z" fill="url(#goldGrad)" stroke="#78350f" stroke-width="1.5" />
+  
+  <!-- Ribbon Text -->
+  <text x="100" y="148" font-family="'Cinzel', 'Times New Roman', serif" font-size="8.5" font-weight="bold" fill="#0f172a" text-anchor="middle" letter-spacing="1">EXCELLENCE &amp; SERVICE</text>
+
+  <!-- Circular Text -->
+  <path id="textPathTop" d="M 28,100 A 72,72 0 0,1 172,100" fill="none" />
+  <text font-family="'Cinzel', 'Times New Roman', serif" font-size="9" font-weight="900" fill="#fbbf24" letter-spacing="1.5">
+    <textPath href="#textPathTop" startOffset="50%" text-anchor="middle">
+      COLLEGE OF HEALTH SCIENCES &amp; TECH
+    </textPath>
+  </text>
+</svg>
